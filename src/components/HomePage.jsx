@@ -1,11 +1,11 @@
 import React from "react";
 import AboutMe from "./AboutMe";
-import Sitebar from "./Sitebar";
+import Navbar from "./Navbar";
 
 export default function HomePage() {
   return (
     <div>
-      <Sitebar />
+      <Navbar />
       <AboutMe/>
     </div>
 
