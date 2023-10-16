@@ -12,7 +12,7 @@ export default function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
-    if (window.innerWidth < 960){
+    if (window.innerWidth < 960) {
       setDropdown(false);
     } else {
       setDropdown(true);
@@ -20,7 +20,7 @@ export default function Navbar() {
   };
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 960){
+    if (window.innerWidth < 960) {
       setDropdown(false);
     } else {
       setDropdown(false);
@@ -38,18 +38,8 @@ export default function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Skills
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Projects
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/producing' className='nav-links' onClick={closeMobileMenu}>
-              Film Producing
+            <Link to='/mentorship' className='nav-links' onClick={closeMobileMenu}>
+              Mentorship
             </Link>
           </li>
           <li className='nav-item'>
