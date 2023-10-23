@@ -11,7 +11,6 @@ export default function App() {
   return (
     <div>
       <Navbar />
-
       <main>
         <Routes>
           <Route path="/" element ={<AboutMe />} />

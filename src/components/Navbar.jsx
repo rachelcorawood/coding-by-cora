@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-
+import ContactButton from './ContactButton'
 
 
 export default function Navbar() {
@@ -44,7 +44,7 @@ export default function Navbar() {
           </li>
           <li className='nav-item'>
             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-              Say Hello
+              <ContactButton/>
             </Link>
           </li>
         </ul>
