@@ -1,7 +1,45 @@
+.skill-section {
+  padding: 30px 30px;
+  margin: 0 auto;
+  margin-top: -14rem;
+  min-height: 250px;
+  justify-content: center;
+  display: flex;
+}
 
+.skill-box {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  width: calc(32.3%);
+  min-height: 250px;
+  border: 1px;
+  border-style: solid;
+  border-color: #a7ae9e;
+  border-radius: 1rem;
+}
 
-.info-section {
-  
-  margin: 100px 0px;
-  min-height: 250px
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.skill-title {
+  text-align: center;
+}
+
+.skill-description {
+  padding-top: 10px;
+  text-align: center;
+}
+
+ul.skill-list {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
 }
