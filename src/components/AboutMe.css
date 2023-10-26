@@ -1,16 +1,16 @@
 .homepage-title {
   text-align: center;
-  padding-top: 80px
+  padding-top: 80px;
+  font-weight: 800;
 }
 
 .title-description {
   text-align: center;
-  padding-top: 30px
+  padding-top: 30px;
 }
 
 .image {
   margin: 20px;
-  padding: 40px;
   width: 100%;
   height: 100pv;
   display: flex;
@@ -19,8 +19,27 @@
 }
 
 .image img {
-  width: 300px;
+  width: 200px;
   border-radius: 50%;
 }
 
+.bio {
+  background-color: #C28799;
+  padding-top: 10rem;
+  padding-bottom: 14rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 
+}
+
+.bio-title {
+  text-align: center;
+  color: white
+}
+
+.bio-paragraph {
+  text-align: center;
+  color: white;
+  margin: 40px;
+  padding-bottom: 60px;
+}

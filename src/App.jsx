@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Contact from "./components/pages/Contact"
 import { Routes, Route} from "react-router-dom";
 import Mentorship from "./components/pages/Mentorship";
+import Homepage from "./components/pages/Homepage";
 
 
 
@@ -13,7 +14,7 @@ export default function App() {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element ={<AboutMe />} />
+          <Route path="/" element ={<Homepage />} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/mentorship" element={<Mentorship/>} />
         </Routes>
