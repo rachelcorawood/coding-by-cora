@@ -8,7 +8,7 @@ import photo from '../assets/portfolio-photo.png'
 export default function AboutMe() {
   return (
     <>
-      <h1 className='homepage-title'>Web Developer and Creative Coach</h1>
+      <h1 className='homepage-title'>Web Developer, Deisgner, and Creative Coach</h1>
 
       <h3 className='title-description'>I code and design simple beautiful sites to help those in health, wellness, and the arts reach their audiences.</h3>
 

@@ -27,11 +27,13 @@ export default function Skill() {
           <p className="skill-description"> I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
           <p className="skill-list-title">Things I enjoy designing:</p>
           <ul className="skill-list">
-            <li>Websites & Apps </li>
+            <li>UX, UI, Web, & Apps </li>
           </ul>
           <p className="skill-list-title">Dev Tools:</p>
           <ul className="skill-list">
             <li>Figma</li>
+            <li>Font Awesome</li>
+            <li>Excalidraw</li>
             <li>Pen & Paper</li>
           </ul>
         </div>

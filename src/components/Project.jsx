@@ -22,7 +22,7 @@ export default function Project() {
           <img className="augmented" src={augmentedPhoto} alt="music-website-logo" />
           <div className="content">
             <p>A peer-to-peer music teaching program.</p>
-            <a href="https://augmented.onrender.com/" className="btn" target="_blank" rel="noopener noreferrer">Visit Website</a>
+            <a href="https://augmented.onrender.com/lessons/1/slides/1" className="btn" target="_blank" rel="noopener noreferrer">Visit Website</a>
           </div>
         </div>
 
