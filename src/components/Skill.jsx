@@ -7,11 +7,7 @@ export default function Skill() {
       <div className='skill-section'>
         <div className='skill-box' >
           <h1 className="skill-title"> Web Developer</h1>
-          <p className="skill-description">I code things from scratch and enjoy bringing ideas to life in the browser. I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
-          <p className="skill-list-title">Things I enjoy developing & designing:</p>
-          <ul className="skill-list">
-            <li>Websites & Apps </li>
-          </ul>
+          <p className="skill-description">I code things from scratch and enjoy bringing ideas to life in the browser. </p>
           <p className="skill-list-title">Languages I speak:</p>
           <ul className="skill-list">
             <li>Javascript, HTML, CSS, SASS, Git</li>
@@ -20,11 +16,23 @@ export default function Skill() {
           <ul className="skill-list">
             <li>React/Redux</li>
             <li>Github</li>
-            <li>Figma</li>
             <li>PostgreSQL</li>
             <li>Sequlize</li>
             <li>Express</li>
             <li>Wordpress</li>
+          </ul>
+        </div>
+        <div className='skill-box' >
+          <h1 className="skill-title"> Designer</h1>
+          <p className="skill-description"> I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
+          <p className="skill-list-title">Things I enjoy designing:</p>
+          <ul className="skill-list">
+            <li>Websites & Apps </li>
+          </ul>
+          <p className="skill-list-title">Dev Tools:</p>
+          <ul className="skill-list">
+            <li>Figma</li>
+            <li>Pen & Paper</li>
           </ul>
         </div>
         <div className='skill-box'>
