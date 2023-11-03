@@ -11,7 +11,7 @@ export default function Project() {
 
       <h1 className="title">My Recent Work</h1>
       <p className="description">Here are a few past web development projects I've worked on. Want to see more?
-        <a className="email-link" href="mailto:codingbycora@gmail.com">Email me</a>
+        <a className="email-link" href="mailto:codingbycora@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a>
         .
       </p>
 
