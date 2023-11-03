@@ -50,7 +50,7 @@ export default function Skill() {
           <ul className="skill-list">
             <li>4 Years Experience</li>
             <li>$47,000 raised for creative projects</li>
-            <li> Grace Hopper Coding Graduate</li>
+            <li> Grace Hopper Software Engineer Graduate</li>
             <li> Developed numerous websites & creative projects</li>
             <li> Managed & hired over 40 artists & creators </li>
           </ul>
