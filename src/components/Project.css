@@ -49,6 +49,7 @@
   border-radius: 1.5rem;
 }
 
+
 .content:hover {
   opacity: 100%;
 }
@@ -58,6 +59,7 @@
   color: white;
   text-align: center;
 }
+
 
 .content>* {
   transform: translateY(25px);

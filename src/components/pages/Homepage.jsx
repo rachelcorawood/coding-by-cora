@@ -3,6 +3,7 @@ import AboutMe from "../AboutMe";
 import Skill from "../Skill";
 import Project from "../Project";
 import Testimonial from "../Testimonial";
+import Startups from "../Startups";
 
 export default function Homepage() {
   return (
@@ -11,6 +12,7 @@ export default function Homepage() {
       <Skill />
       <Project />
       <Testimonial />
+      <Startups />
     </>
   )
 }
