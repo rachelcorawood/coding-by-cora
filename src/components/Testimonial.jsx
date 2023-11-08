@@ -1,32 +1,72 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './Testimonial.css'
-import kara from '../assets/kara.png'
+import { people } from '../data/data.js'
 
 
 
 export default function Testimonial() {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const lastIndex = people.length - 1;
+    if (index < 0) {
+      setIndex(lastIndex);
+    }
+    if (index > lastIndex) {
+      setIndex(0)
+    }
+  }, [index, people]);
+
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1)
+    }, 5000)
+    return () => {
+      clearInterval(slider)
+    }
+  }, [index])
 
   return (
     <>
-      <br />​<hr className="testimonial-section" />​​​​​​​​​​​​​​​​​​​<br />
-      <h1 className="title">Testimonials</h1>
-      <p className='title-description'>People I've worked with have said some nice things...</p>
+      <div>
+        <br /><hr className="testimonial-line" /><br />
+      </div>
 
-      <section className="container">
-        <div className="testimonial">
-          <div className="testi-content">
-            <div className="slide">
-              <img src={kara} alt="photo-of-female-kara-cavanaugh" className="testimonial-image" />
+      <section className="testimonial-section">
 
-              <p><i className="fa fa-quote-left" aria-hidden="true"></i> Creative, curious, and kind, Cora has been an excellent...teammate...She brought an intuitive approach to problem-solving...and was able to face challenges with excitement and optimism. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+        <div className="testimonial-title">
+          <h1>Testimonials</h1>
+          <p className='title-description'>People I've worked with have said some nice things...</p>
+        </div>
 
+        <div className="section-center">
+          {people.map((item, indexPeople) => {
+            const { id, image, name, title, quote } = item;
+            let position = "nextSlide";
+            if (indexPeople === index) {
+              position = "activeSlide"
+            }
+            if (indexPeople === index - 1 || (index === 0 & indexPeople === people.length - 1)) {
+              position = "lastSlide"
+            }
+            return (
+              <article className={position} key={id}>
+                <img src={image} atl={name} className="person-img" />
+                <h3>{name}</h3>
+                <p className="testimonial-title">{title}</p>
+                <p className="testimonail-text">{quote}</p>
 
-              <div className="details">
-                <span className="name">Kara</span> <br></br>
-                <span className="employer"> Grace Hopper</span>
-              </div>
-            </div>
-          </div>
+              </article>
+            )
+          })}
+
+          <button className="prev" onClick={() => setIndex(index - 1)}>
+            <i className="fa-solid fa-chevron-left" />
+          </button>
+
+          <button className="next" onClick={() => setIndex(index + 1)}>
+            <i className="fa-solid fa-chevron-right" />
+          </button>
 
         </div>
       </section>
