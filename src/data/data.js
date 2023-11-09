@@ -28,7 +28,7 @@ export const people = [
     image: "https://github.com/rachelcorawood/coding-by-cora/blob/main/src/assets/shoshana.png?raw=true",
     name: "Shoshana Levitt",
     title: "Software Engineer, New York, NY",
-    quote: "Lorem ipsum dolor sit amet, est at debitis forensibus, libris recusabo vel te. Sed no case labores consequat."
+    quote: "Compassionate, Smart, and Highly Focused, Shoshana was an excellent collaborator and teammate. She brought so much innovative code and beauty to our project, augmenteEd. She is such a pleasure to work with and I would work with her again in a heartbeat."
   }
 ]
 
