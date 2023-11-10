@@ -1,11 +1,10 @@
 import React from "react";
-import AboutMe from "./components/AboutMe";
 import Navbar from "./components/Navbar";
 import Contact from "./components/pages/Contact"
 import { Routes, Route} from "react-router-dom";
 import Mentorship from "./components/pages/Mentorship";
 import Homepage from "./components/pages/Homepage";
-
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -19,6 +18,7 @@ export default function App() {
           <Route path="/mentorship" element={<Mentorship/>} />
         </Routes>
       </main>
+      <Footer/>
     </div>
   )
 }

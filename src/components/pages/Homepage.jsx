@@ -13,6 +13,7 @@ export default function Homepage() {
       <Project />
       <Testimonial />
       <Startups />
+      
     </>
   )
 }

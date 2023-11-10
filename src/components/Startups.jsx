@@ -33,7 +33,7 @@ export default function Startups() {
           <div className="box">
             <img className="meet-me-halfway" src={augmentedPhoto} alt="meet-me-half-logo" />
             <h3>Meet Me Halfway</h3>
-            <p>Helps groups of long-distance friends find the closest town that is an equal distance from each of their locations.</p>
+            <p>Helps groups of long-distance friends find the closest town that is an equal distance from each other.</p>
             <br></br>
             <i className="fa-solid fa-wrench"><p className='in-development-text'>In Development</p></i>
           </div>
