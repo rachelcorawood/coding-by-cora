@@ -1,0 +1,47 @@
+.section_padding {
+  padding: 4rem 4rem;
+  margin-top: 20px;
+  position: sticky;
+  bottom:0;
+}
+
+.footer {
+  background-color: #C28799;
+}
+
+.sb_footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.footer-icon {
+  padding: 20px;
+}
+
+.footer-title {
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.social-icons {
+  padding: 30px;
+}
+
+.social-icons i {
+  padding-left: .5em;
+}
+
+.social-icons a {
+  color: white
+}
+.social-icons i:hover {
+  transform: scale(1.5);
+}
+
+.copyright {
+  padding: 30px;
+}
