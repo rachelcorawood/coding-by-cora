@@ -1,8 +1,10 @@
+
+
 .section_padding {
   padding: 4rem 4rem;
   margin-top: 20px;
   position: sticky;
-  bottom:0;
+  bottom: 0;
 }
 
 .footer {
@@ -38,6 +40,7 @@
 .social-icons a {
   color: white
 }
+
 .social-icons i:hover {
   transform: scale(1.5);
 }
