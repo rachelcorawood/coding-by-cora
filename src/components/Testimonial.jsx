@@ -54,7 +54,7 @@ export default function Testimonial() {
                 <img src={image} atl={name} className="person-img" />
                 <h3>{name}</h3>
                 <p className="testimonial-title">{title}</p>
-                <p className="testimonail-text">{quote}</p>
+                <p className="testimonail-text">"{quote}"</p>
 
               </article>
             )

@@ -28,7 +28,7 @@ export const people = [
     image: "https://github.com/rachelcorawood/coding-by-cora/blob/main/src/assets/shoshana.png?raw=true",
     name: "Shoshana Levitt",
     title: "Software Engineer, New York, NY",
-    quote: "Compassionate, Smart, and Highly Focused, Shoshana was an excellent collaborator and teammate. She brought so much innovative code and beauty to our project, augmenteEd. She is such a pleasure to work with and I would work with her again in a heartbeat."
+    quote: "I had the pleasure of working closely with Cora on a full-stack JavaScript application. Cora approaches problem-solving with a genuine curiosity and is eager to tackle challenges head-on. Her knack for understanding the holistic view of a project allows her to architect a final product that is seamless and intuitive. As a teammate, Cora is exceptionally kind, considerate, and communicative. I would love to work with her again!"
   }
 ]
 
