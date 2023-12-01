@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import ContactButton from './ContactButton'
+import logo from '../assets/logo.png'
 
 
 export default function Navbar() {
@@ -31,7 +32,7 @@ export default function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo'>
-          CODING BY CORA
+          <img src={logo} classname="logo" alt="portfolio-photo" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -43,7 +44,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link  to='/contact' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
               <ContactButton />
             </Link>
           </li>
