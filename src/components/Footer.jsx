@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import './Footer.css';
+import logo from '../assets/logo.png'
 
 export default function Footer() {
   return (
@@ -7,7 +9,9 @@ export default function Footer() {
       <div className="footer">
         <div className="sb_footer section_padding">
           <div className="sb_footer-links-div">
-            <h2 className="footer-icon">CODING BY CORA ICON</h2>
+            <Link to='/' className='footer-logo'>
+              <img src={logo} classname="logo" alt="portfolio-photo" />
+            </Link>
             <h2 className="footer-title"> Living, learning, and leveling up one day at a time.</h2>
 
             <h1 className="social-icons">

@@ -7,10 +7,13 @@
   font-size: 1.2rem;
 }
 
-.navbar .navbar-logo img {
-  height: 150px;
-  width: 150px;
+.navbar .navbar-logo img{
+  height: auto;
+  width: auto;
+  max-height: 82px;
+  max-width: 250px;
 }
+
 
 .navbar-logo {
   color: #C28799;

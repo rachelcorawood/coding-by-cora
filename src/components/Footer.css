@@ -11,6 +11,13 @@
   background-color: #C28799;
 }
 
+.footer .sb_footer .footer-logo img {
+  height: auto;
+  width: auto;
+  max-height: 120px;
+  max-width: 250px;
+}
+
 .sb_footer {
   display: flex;
   flex-direction: column;
