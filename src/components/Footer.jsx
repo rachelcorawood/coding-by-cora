@@ -21,9 +21,9 @@ export default function Footer() {
               <a href="https://www.youtube.com/@CodingByCora" target="_blank" >
                 <i className="fa-brands fa-youtube" /><i />
               </a>
-              <a href="https://github.com/rachelcorawood" target="_blank" >
+              {/* <a href="https://github.com/rachelcorawood" target="_blank" >
                 <i className="fa-brands fa-github" /><i />
-              </a>
+              </a> */}
               {/* <i className="fa-brands fa-dribbble" /> <i /> */}
               <a href="https://drive.google.com/file/d/1AwQPIvjXehJyls0QMTw5oQjazWbF3Syl/view?usp=drive_link" target="_blank">
                 <i className="fa-regular fa-file" /> <i /> </a>
