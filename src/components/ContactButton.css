@@ -4,7 +4,7 @@
   border-right-color: #F8DC6C;
   border-bottom-color: #FFB59B;
   border-left-color: #A7AE9E;
-  padding: .8rem;
+  padding: .5rem;
   color: #C28799;
   font-size: 18px;
   cursor: pointer;
@@ -16,5 +16,3 @@
   background-color: #C28799;
   color: white;
 }
-
-
