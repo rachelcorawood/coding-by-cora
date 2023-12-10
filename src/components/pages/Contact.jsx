@@ -38,7 +38,7 @@ export default function Contact() {
 
   return (
     <>
-      <h1>Thanks for taking the time to reach out. How can I help you today?</h1>
+      <h1 className="contactTitle">Thanks for taking the time to reach out. <br></br> How can I help you today?</h1>
       <form onSubmit={handleSubmit} className='emailForm'>
         <input
           type='text'
@@ -58,8 +58,8 @@ export default function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         > </textarea>
-        <button type="btn"> Submit </button>
       </form>
+      <button type="btn" className="contactButton"> Submit </button>
     </>
   )
 }
