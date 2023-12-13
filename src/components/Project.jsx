@@ -21,6 +21,7 @@ export default function Project() {
         <div className="project-image">
           <img className="augmented" src={augmentedPhoto} alt="music-website-logo" />
           <div className="content">
+            <h1>augmentEd</h1>
             <p>A peer-to-peer music teaching program.</p>
             <a href="https://augmented.onrender.com/lessons/1/slides/1" className="btn" target="_blank" rel="noopener noreferrer">Visit Website</a>
           </div>
@@ -39,7 +40,8 @@ export default function Project() {
         <div className="project-image">
           <img src={futurePicassos} className="future-image" alt="artist-website-logo" />
           <div className="content">
-            <p>Future Picasso's is an e-commerce site for developing visual artists.</p>
+            <h1>Future Picasso's</h1>
+            <p>An e-commerce site for developing visual artists.</p>
             <a href="https://github.com/Binturong-GH/Future-Picassos" className="btn" target="_blank" rel="noopener noreferrer">In Developement</a>
           </div>
         </div>
