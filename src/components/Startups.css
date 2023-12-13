@@ -56,3 +56,9 @@
     padding: 20px;
   }
 }
+
+.startup-container .box-container .box a:hover {
+  transition: all 0.3s ease-out;
+  color: #a7ae9e;
+
+}
