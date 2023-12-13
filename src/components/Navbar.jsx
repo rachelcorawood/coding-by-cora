@@ -39,9 +39,9 @@ export default function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
-            <Link to='/mentorship' className='nav-links' onClick={closeMobileMenu}>
+            {/* <Link to='/mentorship' className='nav-links' onClick={closeMobileMenu}>
               Creative Coaching
-            </Link>
+            </Link> */}
           </li>
           <li className='nav-item'>
             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>

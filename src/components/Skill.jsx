@@ -24,7 +24,7 @@ export default function Skill() {
         </div>
         <div className='skill-box' >
           <h1 className="skill-title"> Designer</h1>
-          <p className="skill-description"> I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
+          <p className="skill-description"> I have my UX Design Foundations Ceertification from Google. I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
           <p className="skill-list-title">Things I enjoy designing:</p>
           <ul className="skill-list">
             <li>UX, UI, Web, & Apps </li>
@@ -37,7 +37,7 @@ export default function Skill() {
             <li>Pen & Paper</li>
           </ul>
         </div>
-        <div className='skill-box'>
+        {/* <div className='skill-box'>
           <h1 className="skill-title"> Creative Coach </h1>
           <p className="skill-description">I genuinely care about people, and love helping fellow web developers, filmmakers, and artists work on their craft and reach their projects finish lines.</p>
           <p className="skill-list-title">Experiences I draw from:</p>
@@ -54,7 +54,7 @@ export default function Skill() {
             <li> Developed numerous websites & creative projects</li>
             <li> Managed & hired over 40 artists & creators </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   )

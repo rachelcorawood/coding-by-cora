@@ -15,15 +15,15 @@ export default function Startups() {
       <div className='startup-container'>
         <div className="box-container">
           <div className="box">
-            <img className="daily-health-quiz" src={augmentedPhoto} alt="daily-health-logo" />
+            {/* <img className="daily-health-quiz" src={augmentedPhoto} alt="daily-health-logo" /> */}
             <h3>Daily Health Quiz</h3>
             <p>According to Ayurvedic Medicine asking yourself these questions daily can help you maintain a happy and healthy life. Based on users responses we provide daily health suggestions they could easily follow.</p>
             <br></br>
-            <i className="fa-solid fa-wrench"><p className='in-development-text'>In Development</p></i>
+            <a href="https://github.com/D-H-Q-App/dailyHealth" target="_blank" rel="noopener noreferrer" className='development-link'><i className="fa-solid fa-wrench"><p className='in-development-text'>In Development & GitHub</p></i></a>
           </div>
 
           <div className="box">
-            <img className="venting-machine" src={augmentedPhoto} alt="venting-machine-logo" />
+            {/* <img className="venting-machine" src={augmentedPhoto} alt="venting-machine-logo" /> */}
             <h3>Venting Machine</h3>
             <p>We provide a video platform that digitally distorts your image and voice so you can anonymously vent about whatever you want.</p>
             <br></br>
@@ -31,7 +31,7 @@ export default function Startups() {
           </div>
 
           <div className="box">
-            <img className="meet-me-halfway" src={augmentedPhoto} alt="meet-me-half-logo" />
+            {/* <img className="meet-me-halfway" src={augmentedPhoto} alt="meet-me-half-logo" /> */}
             <h3>Meet Me Halfway</h3>
             <p>Helps groups of long-distance friends find the closest town that is an equal distance from each other.</p>
             <br></br>

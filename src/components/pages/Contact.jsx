@@ -58,8 +58,9 @@ export default function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         > </textarea>
+         <button type="btn" className="contactButton"> Submit </button>
       </form>
-      <button type="btn" className="contactButton"> Submit </button>
+
     </>
   )
 }
