@@ -20,9 +20,6 @@
   text-align: center;
 }
 
-.align-items .project-contact-button {
-  margin-left: 80px;
-}
 
 .project-contact-button {
   padding: 8px 20px;
@@ -42,4 +39,42 @@
   color: #C28799;
   border-radius: 4px;
   border: 2px solid var(--primary);
+}
+
+
+@media screen and (max-width: 960px) {
+  .call-to-action-container {
+    position: relative;
+
+  }
+
+  .align-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .align-items .item {
+    padding: 5px;
+  }
+
+  .project-contact-button {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: #C28799;
+    font-size: 18px;
+    color: #C28799;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .project-contact-button:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #C28799;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+  }
 }

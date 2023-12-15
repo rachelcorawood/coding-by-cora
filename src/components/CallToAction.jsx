@@ -19,7 +19,7 @@ export default function CallToAction() {
           </div>
           <div className="item">
             <Link as={Link} to='/contact'>
-              <button className='project-contact-button'> <i class="fa-solid fa-link"></i>Let's do this</button>
+              <button className='project-contact-button'> <i className="fa-solid fa-link"></i>Let's do this</button>
 
             </Link>
           </div>

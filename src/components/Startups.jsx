@@ -1,15 +1,15 @@
 import React from 'react'
 import './Startups.css'
-import augmentedPhoto from "../assets/augmented.png"
+
 
 
 
 export default function Startups() {
   return (
     <>
-      <div className='bio'>
-        <h1 className='bio-title'>My Startup Projects</h1>
-        <p className='bio-paragraph'>I'm a bit of a digital app junky. For a while now, I've used hundreds of web and mobile apps in different industries and verticals to help add value and efficiency to my life. Eventually, I decided that it would be a fun challenge to try designing and building my own.</p>
+      <div className='startup-intro'>
+        <h1 className='startup-title'>My Startup Projects</h1>
+        <p className='startup-paragraph'>I'm a bit of a digital app junky. For a while now, I've used hundreds of web and mobile apps in different industries and verticals to help add value and efficiency to my life. Eventually, I decided that it would be a fun challenge to try designing and building my own.</p>
       </div>
 
       <div className='startup-container'>
