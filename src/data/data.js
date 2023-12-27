@@ -24,7 +24,7 @@ export const people = [
     quote: "I have had the pleasure to both work alongside Cora as an engineer, and to witness her ability to bring concepts into reality as a film producer as well. As an engineer, Cora is a pleasure to work with, and has a great ability to ask the right questions to solve problems, and works efficiently and resourcefully to get things done. She is as skilled with coding as she is with the social dynamics of collaboratively building applications, and makes even the most challenging projects enjoyable. I cannot recommend her enough!"
   },
   {
-    id: 3,
+    id: 4,
     image: "https://github.com/rachelcorawood/coding-by-cora/blob/main/src/assets/shoshana.png?raw=true",
     name: "Shoshana Levitt",
     title: "Software Engineer, New York, NY",

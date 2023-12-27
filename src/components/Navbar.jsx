@@ -32,7 +32,7 @@ export default function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo'>
-          <img src={logo} classname="logo" alt="portfolio-photo" />
+          <img src={logo} className="logo" alt="portfolio-photo" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
