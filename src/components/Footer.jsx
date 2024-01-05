@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="sb_footer section_padding">
           <div className="sb_footer-links-div">
             <Link to='/' className='footer-logo'>
-              <img src={logo} classname="logo" alt="portfolio-photo" />
+              <img src={logo} className="logo" alt="portfolio-photo" />
             </Link>
             <h2 className="footer-title"> Living, learning, and leveling up one day at a time.</h2>
 
