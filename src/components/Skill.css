@@ -4,7 +4,8 @@
   min-height: 250px;
   justify-content: center;
   display: flex;
-  gap: 3px;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 .skill-box {
@@ -12,7 +13,7 @@
   padding-left: 30px;
   padding-right: 30px;
   background-color: white;
-  width: calc(32.3%);
+  width: calc(30%);
   min-height: 250px;
   border: 1px;
   box-shadow: 0 5px 10px #a7ae9e;
@@ -51,4 +52,10 @@ ul.skill-list {
   /* Remove margins */
   text-align: center;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .skill-box {
+    width: calc(90%);
+  }
 }

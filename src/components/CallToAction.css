@@ -45,7 +45,6 @@
 @media screen and (max-width: 960px) {
   .call-to-action-container {
     position: relative;
-
   }
 
   .align-items {
@@ -60,7 +59,7 @@
 
   .project-contact-button {
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius: 6px;
     outline: none;
     border: #C28799;
     font-size: 18px;
@@ -74,7 +73,7 @@
     transition: all 0.3s ease-out;
     background-color: transparent;
     color: #C28799;
-    border-radius: 4px;
+    border-radius: 6px;
     border: 2px solid var(--primary);
   }
 }
