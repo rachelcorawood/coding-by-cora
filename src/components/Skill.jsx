@@ -24,7 +24,7 @@ export default function Skill() {
         </div>
         <div className='skill-box' >
           <h1 className="skill-title"> Designer</h1>
-          <p className="skill-description"> I have my UX Design Foundations Certification from Google. I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
+          <p className="skill-description"> I have my UX Design Foundations Certification from Google, I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
           <p className="skill-list-title">Things I enjoy designing:</p>
           <ul className="skill-list">
             <li>UX, UI, Web, & Apps </li>
