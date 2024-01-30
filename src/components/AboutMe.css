@@ -12,7 +12,7 @@
   padding-right: 5px;
 }
 
-.image {
+.video{
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -21,10 +21,6 @@
   align-items: center;
 }
 
-.image img {
-  width: 200px;
-  border-radius: 50%;
-}
 
 .bio {
   background-color: #C28799;
