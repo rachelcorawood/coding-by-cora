@@ -23,26 +23,26 @@ export default function Skill() {
           </ul>
         </div>
         <div className='skill-box'>
-          <h1 className="skill-title"> Project Manager</h1>
+          <h1 className="skill-title"> Associate Project Manager</h1>
           <p className="skill-description">I genuinely care about people, and love helping fellow web developers, filmmakers, and artists reach their projects finish lines.</p>
           <p className="skill-list-title">Experiences I draw from:</p>
           <ul className="skill-list">
-            <li>Web Development</li>
+
             <li>Film & Theatre Producing</li>
             <li>Freelancing</li>
+            <li>Bachelors in Communications from University of Maryland</li>
           </ul>
           <p className="skill-list-title">Project Stats:</p>
           <ul className="skill-list">
             <li>4 Years Experience</li>
             <li>$47,000 raised and allocated for projects</li>
             <li> Grace Hopper Software Engineer Graduate</li>
-            <li> Developed numerous websites & creative projects</li>
             <li> Managed & hired over 40 artists & creators </li>
           </ul>
         </div>
         <div className='skill-box' >
           <h1 className="skill-title"> Designer</h1>
-          <p className="skill-description"> I have my UX Design Foundations Certification from Google, I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
+          <p className="skill-description"> I have my UX Design Certification from Google, I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
           <p className="skill-list-title">Things I enjoy designing:</p>
           <ul className="skill-list">
             <li>UX, UI, Web, & Apps </li>
@@ -52,7 +52,6 @@ export default function Skill() {
             <li>Figma</li>
             <li>Font Awesome</li>
             <li>Excalidraw</li>
-            <li>Pen & Paper</li>
           </ul>
         </div>
 

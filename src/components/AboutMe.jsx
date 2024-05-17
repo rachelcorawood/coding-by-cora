@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 export default function AboutMe() {
   return (
     <>
-      <h1 className='homepage-title'>Web Developer and Product Manager</h1>
+      <h1 className='homepage-title'>Web Developer and Associate Product Manager</h1>
 
       <h3 className='title-description'>I code, design, and manage simple beautiful sites to help those in health, wellness, and the arts reach their audiences.</h3>
 
