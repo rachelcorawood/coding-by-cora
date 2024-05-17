@@ -19,7 +19,7 @@ export default function AboutMe() {
 
       <div className='bio'>
         <h1 className='bio-title'> Hi, I'm Cora. Nice to meet you.</h1>
-        <h2 className='bio-paragraph'>Prior to freelancing as a Web Developer and Product Manager, I was an Administrative Assistant and Medical Receptionist for a celebrity-acclaimed plastic surgeon. This work required extreme organization and obsessive attention to detail because one wrong mistake on a medical file could lead to a potentially fatal error. These skills of being precise and solution-oriented under pressure would make me an ideal candidate to handle building your site with preparedness and ease.<br></br>
+        <h2 className='bio-paragraph'>As a Web Developer and Associate Product Manager, I combine technical skills with a passion for storytelling. I love collaborating with clients, users, team members, and stakeholders to create digital experiences that are not only functional but also engaging. My dedication to this process ensures every project tells the companys story and delivers exceptional user experiences.<br></br>
           <br></br>
           {/* I've also acted and produced film for over fourteen years. I dealt with continuous hurdles and was nicknamed “the rock” for instilling patience in our cast, crew, and investors. My resourcefulness and problem-solving mindset, has helped numerous creative projects surpass the finish line and I'd love to help yours. */}
         </h2>
