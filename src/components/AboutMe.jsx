@@ -10,7 +10,7 @@ export default function AboutMe() {
     <>
       <h1 className='homepage-title'>Web Developer and Associate Product Manager</h1>
 
-      <h3 className='title-description'>I code, design, and manage simple beautiful sites to help those in health, wellness, and the arts reach their audiences.</h3>
+      <h3 className='title-description'>I code and manage simple beautiful sites to help those in health, wellness, and the arts reach their audiences.</h3>
 
       <div className='video'>
         <ReactPlayer controls={true} url="https://vimeo.com/907654075?share=copy#t=0" alt='portfolio-video' />

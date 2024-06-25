@@ -11,6 +11,10 @@ export default function Skill() {
           <p className="skill-list-title">Languages I speak:</p>
           <ul className="skill-list">
             <li>Javascript, HTML, CSS, SASS, Git</li>
+            <li> HTML & CSS</li>
+            <li>SASS & Git</li>
+            <li>Sequelize, Express, & PostGres</li>
+
           </ul>
           <p className="skill-list-title">Dev Tools:</p>
           <ul className="skill-list">
@@ -40,7 +44,7 @@ export default function Skill() {
             <li> Managed & hired over 40 artists & creators </li>
           </ul>
         </div>
-        <div className='skill-box' >
+        {/* <div className='skill-box' >
           <h1 className="skill-title"> Designer</h1>
           <p className="skill-description"> I have my UX Design Certification from Google, I value design that is clean, simple, and equitable with a splash of well thought-out color. </p>
           <p className="skill-list-title">Things I enjoy designing:</p>
@@ -53,7 +57,7 @@ export default function Skill() {
             <li>Font Awesome</li>
             <li>Excalidraw</li>
           </ul>
-        </div>
+        </div> */}
 
       </div>
     </>
