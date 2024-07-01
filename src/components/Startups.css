@@ -58,6 +58,8 @@
   line-height: 1.8;
 }
 
+
+
 .startup-container .box-container .box:hover {
   box-shadow: 0 10px 15px #a7ae9e;
   transform: scale(1.03);
@@ -65,10 +67,12 @@
 
 .startup-container .box-container .box .fa-wrench {
   color: #C28799;
+  
 }
 
 .startup-container .box-container .box .in-development-text {
   color: #C28799;
+
 }
 
 @media (max-width:768px) {

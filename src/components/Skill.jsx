@@ -6,7 +6,7 @@ export default function Skill() {
     <>
       <div className='skill-section'>
         <div className='skill-box' >
-          <h1 className="skill-title"> Web Developer</h1>
+          <h2 className="skill-title"> Web Developer</h2>
           <p className="skill-description">I code things from scratch and enjoy bringing ideas to life in the browser. </p>
           <p className="skill-list-title">Languages I speak:</p>
           <ul className="skill-list">
@@ -27,13 +27,13 @@ export default function Skill() {
           </ul>
         </div>
         <div className='skill-box'>
-          <h1 className="skill-title"> Associate Project Manager</h1>
-          <p className="skill-description">I genuinely care about people, and love helping fellow web developers, filmmakers, and artists reach their projects finish lines.</p>
+          <h2 className="skill-title"> Associate Product Manager</h2>
+          <p className="skill-description">I thrive on collaboration, using my background in film production to help companies bring their products to life.</p>
           <p className="skill-list-title">Experiences I draw from:</p>
           <ul className="skill-list">
 
             <li>Film & Theatre Producing</li>
-            <li>Freelancing</li>
+            <li>Freelance Product Managment</li>
             <li>Bachelors in Communications from University of Maryland</li>
           </ul>
           <p className="skill-list-title">Project Stats:</p>

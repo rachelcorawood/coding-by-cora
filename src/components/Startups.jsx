@@ -9,7 +9,7 @@ export default function Startups() {
     <>
       <div className='startup-intro'>
         <h1 className='startup-title'>My Startup Projects</h1>
-        <p className='startup-paragraph'>I'm a bit of a digital app junky. For a while now, I've used hundreds of web and mobile apps in different industries and verticals to help add value and efficiency to my life. Eventually, I decided that it would be a fun challenge to try designing and building my own.</p>
+        <h3 className='startup-paragraph'>I've always been a digital app enthusiast, constantly exploring new web and mobile apps across different industries to enhance my life. After using so many, I figured it would be a fun and rewarding challenge to design and build my own apps.</h3>
       </div>
 
       <div className='startup-container'>
@@ -17,7 +17,7 @@ export default function Startups() {
           <div className="box">
             {/* <img className="daily-health-quiz" src={augmentedPhoto} alt="daily-health-logo" /> */}
             <h3>Daily Health Quiz</h3>
-            <p>According to Ayurvedic Medicine asking yourself these questions daily can help you maintain a happy and healthy life. Based on users responses we provide daily health suggestions they could easily follow.</p>
+            <p>According to Ayurvedic Medicine asking yourself these questions daily can help you maintain a happy and healthy life.</p>
             <br></br>
             <a href="https://github.com/D-H-Q-App/dailyHealth" target="_blank" rel="noopener noreferrer" className='development-link'><i className="fa-solid fa-wrench"><p className='in-development-text'>In Development & GitHub</p></i></a>
           </div>
@@ -32,8 +32,8 @@ export default function Startups() {
 
           <div className="box">
             {/* <img className="meet-me-halfway" src={augmentedPhoto} alt="meet-me-half-logo" /> */}
-            <h3>Meet Me Halfway</h3>
-            <p>Helps groups of long-distance friends find the closest town that is an equal distance from each other.</p>
+            <h3>Cosmic Bloom</h3>
+            <p>An e-commerce tea shop where you can find herbs, blends, and upcoming events</p>
             <br></br>
             <i className="fa-solid fa-wrench"><p className='in-development-text'>In Development</p></i>
           </div>

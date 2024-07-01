@@ -31,6 +31,7 @@ export default function Project() {
         <div className="project-image">
           <img src={thee} className="thee-image" alt="theatre-website-logo" />
           <div className="content">
+            <h1>Thee Productions</h1>
             <p>A subversive theater and film company that develops original works.</p>
             <a href="https://theeproductions.org/" className="btn" target="_blank" rel="noopener noreferrer">In Development</a>
           </div>

@@ -12,7 +12,7 @@ export default function Footer() {
             <Link to='/' className='footer-logo'>
               <img src={logo} className="logo" alt="portfolio-photo" />
             </Link>
-            <h2 className="footer-title"> Living, learning, and leveling up one day at a time.</h2>
+            <h2 className="footer-title"> Exploring, coding, and turning ideas into reality every single day.</h2>
 
             <h1 className="social-icons">
               <a href="https://www.linkedin.com/in/rachelcora/" target="_blank" >
