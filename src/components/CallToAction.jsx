@@ -14,7 +14,7 @@ export default function CallToAction() {
 
 
 
-          <div className="item"><p >Intersted in working together?
+          <div className="item"><p >Interested in working together?
             We should queue up a time to chat. I'll buy the coffee.</p>
           </div>
           <div className="item">

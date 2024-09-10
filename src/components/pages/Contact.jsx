@@ -38,7 +38,7 @@ export default function Contact() {
 
   return (
     <>
-      <h1 className="contactTitle">Thanks for taking the time to reach out. <br></br> How can I help you today?</h1>
+      <h1 className="contactTitle">Thanks for taking the time to reach out. <br></br> Looking forward to hearing how I can help you get your site completed. </h1>
       <form onSubmit={handleSubmit} className='emailForm'>
         <input
           type='text'

@@ -11,12 +11,12 @@ export default function Homepage() {
   return (
     <>
       <AboutMe />
-      <Skill />
+      {/* <Skill />
       <Project />
       <Testimonial />
       <Startups />
       <CallToAction />
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }

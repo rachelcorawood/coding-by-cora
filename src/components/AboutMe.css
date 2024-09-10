@@ -29,39 +29,37 @@
 
 .bio {
   background-color: #C28799;
-  padding-top: 10rem;
-  padding-bottom:15rem;
+  padding-top: 1.5rem;
+  padding-bottom:1.5rem;
 
 }
 
 .bio-title {
   text-align: center;
-  color: white
+  color: rgb(54, 52, 52);
 }
 
 .bio-paragraph {
   text-align: center;
-  color: white;
+  color: rgb(54, 52, 52);
   margin: 80px;
-  padding-bottom: 0;
 }
 
 .top-contact-button-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
 }
 
 .top-contact-button {
   padding: 20px 20px;
   border-radius: 6px;
   outline: none;
-  border: #C28799;
+  border: rgb(54, 52, 52);
   font-size: 18px;
-  color: #C28799;
+  color: white;
   cursor: pointer;
-  background-color: White;
+  background-color: rgb(54, 52, 52);
 }
 
 .top-contact-button:hover {
