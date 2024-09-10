@@ -12,21 +12,21 @@ export default function Footer() {
             <Link to='/' className='footer-logo'>
               <img src={logo} className="logo" alt="portfolio-photo" />
             </Link>
-            <h2 className="footer-title"> Exploring, coding, and turning ideas into reality every single day.</h2>
+            <h2 className="footer-title"> Here to help you turning your website ideas into a reality.</h2>
 
             <h1 className="social-icons">
               <a href="https://www.linkedin.com/in/rachelcora/" target="_blank" >
                 <i className="fa-brands fa-linkedin" /><i />
               </a>
-              <a href="https://www.youtube.com/@CodingByCora" target="_blank" >
+              {/* <a href="https://www.youtube.com/@CodingByCora" target="_blank" >
                 <i className="fa-brands fa-youtube" /><i />
-              </a>
+              </a> */}
               {/* <a href="https://github.com/rachelcorawood" target="_blank" >
                 <i className="fa-brands fa-github" /><i />
               </a> */}
               {/* <i className="fa-brands fa-dribbble" /> <i /> */}
-              <a href="https://drive.google.com/file/d/1AwQPIvjXehJyls0QMTw5oQjazWbF3Syl/view?usp=drive_link" target="_blank">
-                <i className="fa-regular fa-file" /> <i /> </a>
+              {/* <a href="https://drive.google.com/file/d/1AwQPIvjXehJyls0QMTw5oQjazWbF3Syl/view?usp=drive_link" target="_blank">
+                <i className="fa-regular fa-file" /> <i /> </a> */}
               {/* <i className="fa-brands fa-x-twitter" /> <i /> */}
               <a href="mailto:codingbycora@gmail.com" target="_blank">
                 <i className="fa-regular fa-envelope" /> <i /> </a>

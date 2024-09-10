@@ -1,5 +1,6 @@
 import './AboutMe.css'
 import photo from '../assets/portfolio-photo.png'
+import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 
 
@@ -8,35 +9,43 @@ import { Link } from 'react-router-dom'
 export default function AboutMe() {
   return (
     <>
-      {/* <h1 className='homepage-title'>UX Designer and Web Developer</h1>
+      {/* <h1 className='homepage-title'>UX Designer and Web Developer</h1> */}
+      <div className='top-logo'>
+      <div className='logo-picture'>
+        <img src={logo}  alt='logo-picture' />
+      </div>
+      </div>
 
-      <h2 className='title-description'>Let me guess… you're overwhelmed, right? You don’t have time to design or build a website, and you’re not even sure where to start. Maybe you want something that doesn’t look like every other site out there, but you’re tired of dealing with constant updates and annoying security snags.
+<h2 className='title-description'>Hey, I'm so glad you looked me up...</h2>
+      {/* <h2 className='title-description'>Let me guess… you're overwhelmed, right? You don’t have time to design or build a website, and you’re not even sure where to start. Maybe you want something that doesn’t look like every other site out there, but you’re tired of dealing with constant updates and annoying security snags.
 
 Plus, you definitely don’t want to be stuck using Wix or Squarespace, limited by their cookie-cutter designs, or paying a monthly fee for something that just doesn't feel you.
 
 Here’s what you really want: a site that’s not just pretty, but also unique, easy to use, and reflects your brand. Something that works smoothly, helps people find you, and doesn’t leave you frustrated with constant maintenance. You’re done with that old, clunky design and tired of your limited online presence.
 
-You’re ready for a fresh, modern website that improves client engagement, makes appointment scheduling a breeze, and includes everyone with ease. But... where do you even start?</h2> */}
+You’re ready for a fresh, modern website that improves client engagement, makes appointment scheduling a breeze, and includes everyone with ease. But... where do you even start?</h2>  */}
+
 
       <div className='profile'>
         <img src={photo}  alt='profile-picture' />
       </div>
-
+      <h1 className='bio-title'> I'm, Cora.</h1>
 
       <div className='bio'>
-        <h1 className='bio-title'> Hi, I'm Cora. Nice to meet you.</h1>
+
 <div>
         <h2 className='bio-paragraph'>
+        <div class="center-list">
+    <ul>
+        <li> I help you finally cross your website off the to-do list.</li>
+        <br></br>
+        <li>I build sites that not only look great but drive the results you want.</li>
+        <br></br>
+        <li>I take away the tech stress and bring your website vision to life.</li>
 
-        - Is your website idea continuously getting pushed further down your to-do list?
-        <br></br>
-        - Are you feeling overwhelmed by technical hurdles, unsure how to turn your vision into a functional website?
-        <br></br>
+    </ul>
+</div>
 
-        - Is your current site not bringing in the business you’d hoped for and needs a refresh?
-        <br></br>
-        <br></br>
-        I can help you!
 
         </h2>
         </div>

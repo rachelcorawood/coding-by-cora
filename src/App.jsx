@@ -10,7 +10,7 @@ import ProjectContact from "./components/pages/ProjectContact";
 export default function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
         <Routes>
           <Route path="/" element ={<Homepage />} />
