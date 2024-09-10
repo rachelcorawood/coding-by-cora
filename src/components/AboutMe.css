@@ -70,6 +70,7 @@
   display: inline-block; /* Keeps the list centered */
   text-align: left; /* Left-aligns the text inside the list */
   padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .top-contact-button-div {
