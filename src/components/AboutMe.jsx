@@ -39,9 +39,10 @@ You’re ready for a fresh, modern website that improves client engagement, make
     <ul>
         <li> I help you finally cross your website off the to-do list.</li>
         <br></br>
-        <li>I build sites that not only look great but drive the results you want.</li>
+        <li>I provide reliable front-end development to execute your vision efficiently</li>
         <br></br>
-        <li>I take away the tech stress and bring your website vision to life.</li>
+        <li>I build sites that not only look great but drive the results you want.</li>
+        
 
     </ul>
 </div>

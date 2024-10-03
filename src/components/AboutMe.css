@@ -87,6 +87,7 @@
   color: rgb(54, 52, 52);
   cursor: pointer;
   background-color: white;
+  border-color: white ;
 }
 
 .top-contact-button:hover {
