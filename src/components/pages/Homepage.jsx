@@ -12,8 +12,8 @@ export default function Homepage() {
     <>
       <AboutMe />
       <Project />
-      {/* <Skill />
       <Testimonial />
+      {/* <Skill />
       <Startups />
       <CallToAction />
       <Footer/> */}
