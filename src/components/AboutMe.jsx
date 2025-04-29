@@ -58,7 +58,7 @@ By working directly with me, you’ll have the flexibility of personalized atten
         </h2> */}
         <div className='top-contact-button-div'>
             <Link as={Link} to='/contact'>
-              <button className='top-contact-button'> <i className="fa-solid fa-link"></i>Click Here To Contact Me</button>
+              <button className='top-contact-button'> <i className="fa-solid fa-link"></i>Click Here To Reach Me</button>
 
             </Link>
         </div>
